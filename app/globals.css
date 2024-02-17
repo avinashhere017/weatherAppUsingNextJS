@@ -31,3 +31,29 @@ body {
     text-wrap: balance;
   }
 }
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+}
+/* Global styles or in your component's CSS file */
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .flex {
+    flex-direction: column;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  input {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    width: 100%;
+  }
+}
