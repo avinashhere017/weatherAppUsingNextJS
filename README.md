@@ -4,7 +4,7 @@ This is a weather app built using Next.js 14, OpenWeatherMap API, and Tailwind C
 * Top-Level Files and Folders: Next.js follows a conventional project structure .
 * Pages: Pages in Next.js are React components automatically associated with a route based on their file name. They reside in the pages directory.
 * API Integration: Next.js allows easy integration with APIs. In this app, OpenWeatherMap API is used for weather data.
-Functionality:
+## Functionality:
 * Users can search for weather information by city name.
 * Detailed weather data including temperature, humidity, and description is displayed.
 * A 5-day forecast is provided.
