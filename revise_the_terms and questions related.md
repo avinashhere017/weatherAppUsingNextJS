@@ -10,7 +10,7 @@ This project is a weather application developed using Next.js 14 with Tailwind C
 4. **Weather Information Component (app/component/details/weatherinfo.jsx):** This component renders the current weather information for a city. It displays the city name, current date and time, weather description, humidity, and temperature (in Celsius or Fahrenheit). It also provides a button to switch between temperature units.
 
 5. **Forecast Component (app/component/details/forecast.jsx):** This component renders a 5-day forecast for a city. It displays the date, weather description, and temperature for each day.
-You have used React hooks (useState and useEffect) to manage state and handle side effects in the components
+I have used React hooks (useState and useEffect) to manage state and handle side effects in the components
 
 Additional Features:
 
