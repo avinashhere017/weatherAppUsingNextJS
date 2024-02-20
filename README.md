@@ -22,12 +22,6 @@ Functionality:
 * Switch between Celsius and Fahrenheit units
 * Responsive design for different screen sizes
 
-## Technologies Used
-
-* Next.js 14
-* OpenWeatherMap API
-* Tailwind CSS
-* React
 
 ## Getting Started
 
@@ -37,6 +31,12 @@ Functionality:
 4. Start the development server: `npm run dev`
 5. Open `http://localhost:3000` in your browser
 
+## Technologies Used
 
+* Next.js 14: A robust framework for building server-rendered and statically generated web applications.
+* Tailwind CSS: A utility-first CSS framework for rapid and elegant UI development.
+* OpenWeatherMap API: Provides high-quality weather data to fuel your app's forecasts.
+* React: The foundation for building dynamic and interactive user interfaces.
+* Moment.js: A versatile library for parsing, manipulating, and formatting dates and times.
 
 I hope this helps!
