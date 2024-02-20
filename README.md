@@ -1,20 +1,42 @@
-# Weather App
-This is a Weather App built using Next.js, Tailwind CSS, and OpenWeatherMap API. It allows users to search for weather information by city name and displays detailed weather data along with a 5-day forecast.
+This is a weather app built using Next.js 14, OpenWeatherMap API, and Tailwind CSS. It allows users to search for weather information in different cities and displays the current weather conditions as well as a 5-day forecast.
 
-# Features
-Search Functionality: Users can input a city name to search for weather information.
-Detailed Weather Data: Provides current weather conditions including temperature, humidity, and weather description.
-5-Day Forecast: Displays a forecast for the next 5 days with details such as temperature and weather description.
-Temperature Units Toggle: Users can switch between Celsius and Fahrenheit for temperature display.
+## Project Structure
+Top-Level Files and Folders: Next.js follows a conventional project structure [1].
+Pages: Pages in Next.js are React components automatically associated with a route based on their file name. They reside in the pages directory.
+API Integration: Next.js allows easy integration with APIs. In this app, OpenWeatherMap API is used for weather data.
+Functionality:
+Users can search for weather information by city name.
+Detailed weather data including temperature, humidity, and description is displayed.
+A 5-day forecast is provided.
+Users can toggle between Celsius and Fahrenheit temperature units.
+Differences with Normal React App:
+Next.js simplifies routing and page creation with its file-based routing system.
+It offers server-side rendering and static site generation out of the box, improving performance and SEO.
+Built-in API routes enable serverless functions for backend operations.
 
-# Technologies Used
-Next.js 14
-Tailwind CSS
-React
-OpenWeatherMap API
-# How to Use
-Clone the repository.
-Install dependencies using npm install.
-Obtain an API key from OpenWeatherMap and replace YOUR_API_KEY in the code with your key.
-Run the app using npm run dev.
-Open your browser and navigate to http://localhost:3000.
+## Features
+
+* Search for weather in any city
+* View current weather conditions, including temperature, humidity, and weather description
+* See a 5-day forecast with average temperature along with dates.
+* Switch between Celsius and Fahrenheit units
+* Responsive design for different screen sizes
+
+## Technologies Used
+
+* Next.js 14
+* OpenWeatherMap API
+* Tailwind CSS
+* React
+
+## Getting Started
+
+1. Clone this repository
+2. Install the required dependencies: `npm install`
+3. Obtain an API key from OpenWeatherMap and replace YOUR_API_KEY in the code with your key.
+4. Start the development server: `npm run dev`
+5. Open `http://localhost:3000` in your browser
+
+
+
+I hope this helps!
