@@ -1,18 +1,18 @@
 This is a weather app built using Next.js 14, OpenWeatherMap API, and Tailwind CSS. It allows users to search for weather information in different cities and displays the current weather conditions as well as a 5-day forecast.
 
 ## Project Structure
-Top-Level Files and Folders: Next.js follows a conventional project structure [1].
-Pages: Pages in Next.js are React components automatically associated with a route based on their file name. They reside in the pages directory.
-API Integration: Next.js allows easy integration with APIs. In this app, OpenWeatherMap API is used for weather data.
+* Top-Level Files and Folders: Next.js follows a conventional project structure .
+* Pages: Pages in Next.js are React components automatically associated with a route based on their file name. They reside in the pages directory.
+* API Integration: Next.js allows easy integration with APIs. In this app, OpenWeatherMap API is used for weather data.
 Functionality:
-Users can search for weather information by city name.
-Detailed weather data including temperature, humidity, and description is displayed.
-A 5-day forecast is provided.
-Users can toggle between Celsius and Fahrenheit temperature units.
-Differences with Normal React App:
-Next.js simplifies routing and page creation with its file-based routing system.
-It offers server-side rendering and static site generation out of the box, improving performance and SEO.
-Built-in API routes enable serverless functions for backend operations.
+* Users can search for weather information by city name.
+* Detailed weather data including temperature, humidity, and description is displayed.
+* A 5-day forecast is provided.
+* Users can toggle between Celsius and Fahrenheit temperature units.
+## Differences with Normal React App:
+* Next.js simplifies routing and page creation with its file-based routing system.
+* It offers server-side rendering and static site generation out of the box, improving performance and SEO.
+* Built-in API routes enable serverless functions for backend operations.
 
 ## Features
 
